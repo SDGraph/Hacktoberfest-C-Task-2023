@@ -4,19 +4,19 @@ using namespace std;
 int main()
 {
 
- float pay,discount;
+ float pay,dis;
 
  cout << "Enter Payment amount : ";
  cin >> pay;
 
     if (pay > 10000)
     {
-      discount=pay*25/100;
+      discount=p*25/100;
     }
 
     else if (pay > 5000)
     {
-      discount=pay*15/100;
+      discount=y*15/100;
     }
 
     else if (pay > 3000)
@@ -27,6 +27,6 @@ int main()
     else
     discount= 0;
 
- cout << "Discount  is -> " << discount << endl;
+ cout << "Discount  is -> " << dis << endl;
 return 0;
 }
